@@ -43,7 +43,6 @@ font-size: 24px;
     /*HERO SECTION*/
     .main1 {
         display: flex;
-        justify-content: space-between;
         align-items: center;
         padding: 50px;
         background: #dcdce6;
@@ -53,6 +52,7 @@ font-size: 24px;
 }
 .main1 img{
     width: 250px;
+    margin-top: 30px;
 }
 
 /* ABOUT SECTION */
@@ -60,6 +60,7 @@ font-size: 24px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 20px;
     padding: 50px;
     background-color: aquamarine;
 }
